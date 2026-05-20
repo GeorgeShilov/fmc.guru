@@ -22,7 +22,7 @@ const description = Astro.props.description || site.description;
   <body>
     <header class="site-header">
       <a class="brand" href="/" aria-label={`${site.name} home`}>
-        <span class="brand-mark">G</span>
+        <span class="brand-mark">F</span>
         <span>{site.name}</span>
       </a>
       <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false">
@@ -40,7 +40,7 @@ const description = Astro.props.description || site.description;
     <footer class="site-footer">
       <div>
         <a class="brand footer-brand" href="/">
-          <span class="brand-mark">G</span>
+          <span class="brand-mark">F</span>
           <span>{site.name}</span>
         </a>
         <p>
@@ -252,6 +252,17 @@ const description = Astro.props.description || site.description;
     color: var(--ink);
   }
 
+  .hero .button {
+    background: var(--accent);
+    border-color: var(--accent);
+  }
+
+  .hero .button.secondary {
+    background: #fff;
+    border-color: #fff;
+    color: var(--ink);
+  }
+
   .grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -322,7 +333,7 @@ const description = Astro.props.description || site.description;
     }
 
     .menu-button {
-      display: block;
+      display: grid;
     }
 
     .site-nav {
