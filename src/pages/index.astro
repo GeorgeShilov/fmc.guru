@@ -9,33 +9,34 @@ const posts = await getBlogPosts();
 const featured = posts.find((post) => post.featured) || posts[0];
 ---
 
-<Layout title="FMC Guru / Growth strategy command" description={site.description}>
+<Layout title="FantomMarketCap | FMC.guru" description={site.description}>
   <ArchiveNotice />
   <section class="hero">
     <div class="hero-copy">
-      <p class="eyebrow">FMC Guru / Growth strategy command</p>
-      <h1>Turn strategy into scalable growth.</h1>
+      <p class="eyebrow">FantomMarketCap / FMC.guru</p>
+      <h1>Find gems on Fantom Opera.</h1>
       <p class="lead">
-        FMC Guru gives founders and operators expert consulting, digital strategy,
-        and growth systems that move businesses from planning to execution.
+        FantomMarketCap tracks token prices, market caps, DEX listings, and live
+        trading data across the Fantom ecosystem — so you can spot opportunities
+        before the crowd.
       </p>
       <div class="button-row">
-        <a class="button" href="/gateway/">Explore command OS</a>
-        <a class="button secondary" href="/blog/">Read field notes</a>
+        <a class="button" href="/gateway/">Explore the directory</a>
+        <a class="button secondary" href="/blog/">Read market notes</a>
       </div>
     </div>
-    <div class="hero-panel" aria-label="FMC Guru signal summary">
+    <div class="hero-panel" aria-label="FantomMarketCap signal summary">
       <div>
         <span>Core view</span>
-        <strong>Strategy &amp; growth command</strong>
+        <strong>Token prices &amp; market cap</strong>
       </div>
       <div>
         <span>Signals</span>
-        <strong>Consulting, digital, conversion</strong>
+        <strong>DEX listings, liquidity, yields</strong>
       </div>
       <div>
         <span>Focus</span>
-        <strong>Business mastery &amp; revenue systems</strong>
+        <strong>Fantom Opera DeFi intelligence</strong>
       </div>
     </div>
   </section>
@@ -44,7 +45,7 @@ const featured = posts.find((post) => post.featured) || posts[0];
     <div class="section-inner split">
       <div>
         <p class="eyebrow">Why it exists</p>
-        <h2>Leadership teams need clarity before perfect attribution.</h2>
+        <h2>On-chain data should be readable, ranked, and ready.</h2>
       </div>
       <div class="history-list">
         {site.launchContext.map((item) => <p>{item}</p>)}
@@ -54,20 +55,20 @@ const featured = posts.find((post) => post.featured) || posts[0];
 
   <section class="section">
     <div class="section-inner">
-      <p class="eyebrow">Command architecture</p>
-      <h2>One view for the messy first mile of growth.</h2>
+      <p class="eyebrow">Market categories</p>
+      <h2>Every corner of the Fantom DeFi landscape.</h2>
       <div class="grid">
         <article class="card">
-          <h3>Strategy map</h3>
-          <p>Align positioning, market moves, and revenue goals without losing the big picture.</p>
+          <h3>DEX &amp; AMM</h3>
+          <p>Track swaps, liquidity pools, and trading volume across native and bridged assets on Fantom.</p>
         </article>
         <article class="card">
-          <h3>Growth review</h3>
-          <p>Turn early signals into clear decisions for channels, offers, and follow-up.</p>
+          <h3>Yields &amp; Vaults</h3>
+          <p>Find farms, staking pools, and vault strategies with real-time supply and reward data.</p>
         </article>
         <article class="card">
-          <h3>Consulting rhythm</h3>
-          <p>Connect planning, execution, and measurement into one disciplined habit.</p>
+          <h3>Stablecoins &amp; Bridges</h3>
+          <p>Monitor pegs, bridge flows, and on-chain supply for the tokens that anchor the ecosystem.</p>
         </article>
       </div>
     </div>

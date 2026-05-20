@@ -6,23 +6,26 @@ import Layout from "@/layouts/Layout.astro";
   <section class="section">
     <div class="section-inner docs">
       <p class="eyebrow">Docs</p>
-      <h1>work command notes</h1>
-      <p class="lead">A concise reference for creating and deploying repeatable SaaS work surfaces.</p>
+      <h1>FantomMarketCap reference</h1>
+      <p class="lead">A concise guide to reading Fantom token data, DEX rankings, and on-chain signals.</p>
       <article class="card">
-        <h2>Required assets</h2>
+        <h2>How rankings work</h2>
         <ul>
-          <li>Generate no more than 2-3 logo variants before choosing a primary Codex Workplace mark.</li>
-          <li>Create one hero background for the homepage and a reusable Open Graph visual.</li>
-          <li>Create at least three images per blog post: one cover and two inline images.</li>
-          <li>Store prompt metadata next to generated assets so the visual system is reproducible.</li>
+          <li>Tokens are ranked by market cap calculated from circulating supply and current price.</li>
+          <li>Nativity markers show whether an asset is native (⁕), bridged (*), or a stablecoin.</li>
+          <li>Liquidity scores reflect the deepest DEX pool available for each token pair.</li>
         </ul>
       </article>
       <article class="card">
-        <h2>Suggested environment variables</h2>
-        <pre><code>SITE_URL=https://codexworkplace.com
-FAL_KEY=...
-CLOUDFLARE_ACCOUNT_ID=...
-RAILWAY_TOKEN=...</code></pre>
+        <h2>Categories explained</h2>
+        <ul>
+          <li><strong>DEX / AMM</strong> — Automated market makers and swap protocols on Fantom Opera.</li>
+          <li><strong>Farming / Yields</strong> — Protocols emitting rewards for liquidity provision or staking.</li>
+          <li><strong>Vaults</strong> — Auto-compounding strategies that harvest and reinvest rewards.</li>
+          <li><strong>Stablecoins</strong> — Pegged assets used for low-volatility collateral and trading.</li>
+          <li><strong>Bridges</strong> — Cross-chain infrastructure moving assets between Fantom and other networks.</li>
+          <li><strong>Tools / Oracles</strong> — Price feeds, analytics, charting, and infrastructure.</li>
+        </ul>
       </article>
     </div>
   </section>

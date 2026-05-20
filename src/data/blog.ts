@@ -15,55 +15,55 @@ export type BlogPost = {
 
 export const fallbackPosts: BlogPost[] = [
   {
-    slug: "growth-strategy-for-scaling-digital-revenue",
-    title: "Growth strategy for scaling digital revenue",
+    slug: "how-to-spot-early-gems-on-fantom",
+    title: "How to spot early gems on Fantom",
     description:
-      "A practical framework for moving from ad-hoc marketing to a repeatable growth system that compounds.",
+      "A practical framework for evaluating new tokens before they hit the mainstream: nativity, liquidity, and on-chain signals.",
     pubDate: "2026-05-16",
-    author: "FMC Guru Team",
-    category: "Growth",
-    tags: ["Growth", "Strategy", "Revenue"],
+    author: "FantomMarketCap Team",
+    category: "Research",
+    tags: ["Fantom", "Gems", "Research"],
     featured: true,
     heroImage: "/assets/archive-grid.svg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
-      <p>Most digital businesses do not fail because of bad product. They fail because growth is treated as a series of disconnected tactics instead of a coherent system. A real growth strategy starts with three clear decisions: your primary channel, your core offer, and the metric that tells you the engine is working.</p>
-      <p>Once those are locked, the work shifts to compounding loops. Content builds trust, trust builds traffic, traffic feeds the funnel, and the funnel funds more content. The role of a consultant is not to add complexity, but to tighten the loop and remove the friction that kills momentum.</p>
-      <p>The most important discipline is patience with measurement. Track leading indicators weekly, lagging indicators monthly, and resist the urge to pivot before the system has had time to compound.</p>
+      <p>Most token hunters miss the window because they wait for social proof instead of reading on-chain data early. The real edge comes from three filters: nativity (is the asset native or bridged), liquidity depth (can you enter and exit without moving the price), and holder distribution (is supply concentrated or spread).</p>
+      <p>FantomMarketCap was built to surface these signals before the crowd arrives. Rank by market cap, sort by most liquid, filter by category — AMM, vault, yield, stablecoin — and you get a map of where the ecosystem is heading, not just where it has been.</p>
+      <p>The most important discipline is patience with position sizing. Track supply changes weekly, volume trends daily, and resist the urge to ape before the contract has been verified and the liquidity locked.</p>
     `
   },
   {
-    slug: "building-a-digital-strategy-that-executes",
-    title: "Building a digital strategy that executes",
+    slug: "reading-dex-liquidity-like-a-trader",
+    title: "Reading DEX liquidity like a trader",
     description:
-      "How to turn high-level business goals into focused digital initiatives that ship on time and drive outcomes.",
+      "How to interpret total value locked, volume, and slippage across Fantom DEXes to find the best execution routes.",
     pubDate: "2026-05-15",
-    author: "FMC Guru Team",
-    category: "Strategy",
-    tags: ["Strategy", "Digital", "Execution"],
+    author: "FantomMarketCap Team",
+    category: "Trading",
+    tags: ["DEX", "Liquidity", "Fantom"],
     heroImage: "/assets/archive-grid.svg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
-      <p>Strategy without execution is just a document. The bridge between plan and result is a clear set of initiatives, each owned by one person, each with a measurable output and a hard deadline. Digital strategy fails when it stays at the vision level.</p>
-      <p>Start by mapping business goals to digital capabilities. If the goal is to increase qualified leads, the capability is a content-to-funnel system. If the goal is to reduce churn, the capability is a customer success signal layer. Each capability gets one initiative per quarter.</p>
-      <p>Review progress weekly, not monthly. Short feedback loops expose blockers early and keep the team aligned on what matters most. The best digital strategists are relentless about saying no to anything outside the current initiative set.</p>
+      <p>Liquidity is not a single number. It is a shape. A pool can look deep from the outside but be lopsided once you drill into token ratios and recent flow. On Fantom, where DEXes range from Sushi and Beethoven X to native protocols like PaintSwap and Waka, execution quality varies block by block.</p>
+      <p>Start by comparing total value locked to twenty-four-hour volume. High TVL with low volume often means sticky deposits and wide spreads. Low TVL with high volume can mean volatile but efficient pricing. The best trades happen where the ratio is balanced.</p>
+      <p>Review routes across multiple DEXes before swapping. Aggregators help, but direct comparison of slippage on identical pairs often reveals hidden liquidity on smaller venues. The best traders treat DEX selection as a first-class decision, not an afterthought.</p>
     `
   },
   {
-    slug: "consulting-frameworks-for-faster-decisions",
-    title: "Consulting frameworks for faster decisions",
+    slug: "understanding-yield-farms-and-vaults",
+    title: "Understanding yield farms and vaults",
     description:
-      "Proven mental models that help leadership teams cut through noise and make better strategic decisions under uncertainty.",
+      "What APY actually means, how vault strategies compound, and the risks to watch before depositing into a Fantom farm.",
     pubDate: "2026-05-14",
-    author: "FMC Guru Team",
-    category: "Consulting",
-    tags: ["Consulting", "Frameworks", "Leadership"],
+    author: "FantomMarketCap Team",
+    category: "DeFi",
+    tags: ["Yield", "Farming", "Vaults"],
     heroImage: "/assets/archive-grid.svg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
-      <p>Speed of decision-making is often the only real competitive advantage a small team has. The problem is not a lack of data; it is a lack of structure. Good consulting frameworks give leadership teams a shared language for evaluating options without analysis paralysis.</p>
-      <p>Start with the simplest possible model: what is the problem, what are the constraints, what is the cheapest way to learn, and what does success look like in thirty days. Every other framework is just a more elaborate version of those four questions.</p>
-      <p>The best teams document their decisions, not just their outcomes. A decision log reveals pattern bias, surfaces assumptions, and makes it easier to course-correct when the market shifts. In consulting, the value is rarely the answer. It is the process that produced it.</p>
+      <p>APY is a projection, not a promise. The number you see on a farm page assumes the emission schedule, token price, and pool size stay constant — none of which ever do. The real question is not how high the APY is, but how long the incentive structure can sustain it.</p>
+      <p>Vaults add another layer. Instead of manually harvesting and reinvesting, a vault strategy automates the loop, often compounding several times per day. This amplifies returns but also concentrates smart-contract risk. If the vault has not been audited, the APY is irrelevant.</p>
+      <p>Before depositing, check the native token emission schedule, the depth of the reward pool, and the history of the protocol. On Fantom, the best farms are the ones that have survived at least one full market cycle without diluting holders into oblivion.</p>
     `
   }
 ];

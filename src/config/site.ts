@@ -1,19 +1,19 @@
 export const site = {
-  name: "FMC Guru",
+  name: "FantomMarketCap",
   domain: "fmc.guru",
   url: import.meta.env.SITE_URL || "https://fmc.guru",
   email: "hello@fmc.guru",
   description:
-    "FMC Guru is a consulting command platform for founders and operators who want expert digital growth, business strategy, and scalable revenue systems.",
+    "FMC.guru (FantomMarketCap) by FTM.guru: Fantom Opera blockchain token prices, markets, DEX listings, Market Cap, and live trading data.",
   launchContext: [
-    "Deliver sharp growth strategy, market positioning, and digital execution plans for teams that need results, not theory.",
-    "Turn scattered business insights into focused action briefs: who to reach, what to say, and where to double down.",
-    "Connect strategy, content operations, conversion systems, and follow-up decisions into one coherent growth engine."
+    "Track token prices, market caps, and liquidity across the Fantom Opera ecosystem in real time.",
+    "Discover new gems with ranked listings, nativity filters, and DEX directories for every major protocol.",
+    "Map the Fantom DeFi landscape: AMMs, bridges, farms, vaults, stablecoins, oracles, and yield sources."
   ]
 };
 
 export const navItems = [
-  { label: "Command OS", href: "/gateway/" },
+  { label: "Directory", href: "/gateway/" },
   { label: "Docs", href: "/docs/" },
   { label: "Pricing", href: "/pricing/" },
   { label: "FAQ", href: "/faq/" },
