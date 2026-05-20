@@ -66,17 +66,17 @@ const description = Astro.props.description || site.description;
 
 <style is:global>
   :root {
-    color-scheme: light;
-    --ink: #111827;
-    --muted: #5c6676;
-    --line: #d9dee8;
-    --panel: #ffffff;
-    --soft: #f6f8fb;
-    --accent: #06b6d4;
-    --accent-strong: #0e7490;
+    color-scheme: dark;
+    --ink: #f0fdf4;
+    --muted: #86efac;
+    --line: rgba(19, 181, 236, 0.2);
+    --panel: rgba(17, 26, 22, 0.7);
+    --soft: #0a0f0d;
+    --accent: #13b5ec;
+    --accent-strong: #1969ff;
     --gold: #f97316;
-    --blue: #2563eb;
-    --shadow: 0 18px 50px rgba(17, 24, 39, 0.1);
+    --blue: #1969ff;
+    --shadow: 0 18px 50px rgba(6, 182, 212, 0.12);
     font-family:
       Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   }
@@ -87,8 +87,8 @@ const description = Astro.props.description || site.description;
 
   body {
     margin: 0;
-    background: var(--soft);
-    color: var(--ink);
+    background: #0a0f0d;
+    color: #f0fdf4;
     line-height: 1.6;
   }
 
@@ -111,8 +111,8 @@ const description = Astro.props.description || site.description;
     justify-content: space-between;
     gap: 24px;
     padding: 16px clamp(18px, 5vw, 64px);
-    border-bottom: 1px solid rgba(217, 222, 232, 0.88);
-    background: rgba(255, 255, 255, 0.92);
+    border-bottom: 1px solid rgba(19, 181, 236, 0.2);
+    background: rgba(10, 15, 13, 0.92);
     backdrop-filter: blur(18px);
   }
 
@@ -131,7 +131,7 @@ const description = Astro.props.description || site.description;
     height: 34px;
     place-items: center;
     border-radius: 8px;
-    background: linear-gradient(135deg, #111827, #06b6d4);
+    background: linear-gradient(135deg, #13b5ec, #1969ff);
     color: #fff;
     font-size: 17px;
   }
@@ -146,7 +146,7 @@ const description = Astro.props.description || site.description;
   }
 
   .site-nav a:hover {
-    color: var(--accent-strong);
+    color: #13b5ec;
   }
 
   .menu-button {
@@ -154,9 +154,9 @@ const description = Astro.props.description || site.description;
     width: 42px;
     height: 42px;
     place-items: center;
-    border: 1px solid var(--line);
+    border: 1px solid rgba(19, 181, 236, 0.2);
     border-radius: 8px;
-    background: #fff;
+    background: #111a16;
   }
 
   .menu-button span {
@@ -164,7 +164,7 @@ const description = Astro.props.description || site.description;
     width: 18px;
     height: 2px;
     margin: 3px auto;
-    background: var(--ink);
+    background: #13b5ec;
   }
 
   .section {
@@ -222,7 +222,7 @@ const description = Astro.props.description || site.description;
   .lead {
     max-width: 720px;
     margin-top: 24px;
-    color: #384252;
+    color: #86efac;
     font-size: clamp(18px, 2vw, 22px);
   }
 
@@ -247,9 +247,9 @@ const description = Astro.props.description || site.description;
   }
 
   .button.secondary {
-    border-color: var(--line);
-    background: #fff;
-    color: var(--ink);
+    border-color: rgba(19, 181, 236, 0.4);
+    background: transparent;
+    color: #f0fdf4;
   }
 
   .hero .button {
@@ -258,9 +258,9 @@ const description = Astro.props.description || site.description;
   }
 
   .hero .button.secondary {
-    background: #fff;
-    border-color: #fff;
-    color: var(--ink);
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
   }
 
   .grid {
@@ -270,15 +270,15 @@ const description = Astro.props.description || site.description;
   }
 
   .card {
-    border: 1px solid var(--line);
+    border: 1px solid rgba(19, 181, 236, 0.2);
     border-radius: 8px;
-    background: var(--panel);
+    background: rgba(17, 26, 22, 0.7);
     padding: 24px;
-    box-shadow: 0 1px 0 rgba(17, 24, 39, 0.03);
+    box-shadow: 0 1px 0 rgba(6, 182, 212, 0.05);
   }
 
   .band {
-    background: #fff;
+    background: #111a16;
   }
 
   .site-footer {
@@ -286,8 +286,8 @@ const description = Astro.props.description || site.description;
     justify-content: space-between;
     gap: 32px;
     padding: 44px clamp(18px, 5vw, 64px);
-    border-top: 1px solid var(--line);
-    background: #fff;
+    border-top: 1px solid rgba(19, 181, 236, 0.2);
+    background: #0a0f0d;
   }
 
   .site-footer p {
@@ -310,7 +310,7 @@ const description = Astro.props.description || site.description;
 
   .article-body p,
   .article-body li {
-    color: #354052;
+    color: #86efac;
     font-size: 18px;
   }
 
