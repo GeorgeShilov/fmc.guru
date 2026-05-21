@@ -4,6 +4,11 @@ import Layout from "@/layouts/Layout.astro";
 import { getBlogPosts } from "@/lib/squidex";
 
 const posts = await getBlogPosts();
+const sorted = [...posts].sort(
+  (a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
+);
+const latest3 = sorted.slice(0, 3);
+const older = sorted.slice(3);
 ---
 
 <Layout title="Blog">
@@ -15,23 +20,60 @@ const posts = await getBlogPosts();
         Trading frameworks, DEX liquidity analysis, and yield strategy write-ups for on-chain
         operators.
       </p>
-      <div class="post-grid">
-        {posts.map((post) => <PostCard post={post} />)}
+
+      <!-- Latest 3 posts — horizontal on desktop, vertical on mobile -->
+      <div class="latest-row">
+        {latest3.map((post) => <PostCard post={post} />)}
       </div>
+
+      <!-- Older posts -->
+      {older.length > 0 && (
+        <div class="older-section">
+          <h2>Earlier notes</h2>
+          <div class="older-grid">
+            {older.map((post) => <PostCard post={post} />)}
+          </div>
+        </div>
+      )}
     </div>
   </section>
 </Layout>
 
 <style>
-  .post-grid {
+  /* Latest 3: horizontal row on desktop */
+  .latest-row {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 18px;
-    margin-top: 42px;
+    gap: 24px;
+    margin-top: 48px;
   }
 
+  /* Older posts: 2-column grid */
+  .older-section {
+    margin-top: 72px;
+  }
+
+  .older-section h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 28px;
+    color: var(--ink, #f0fdf4);
+  }
+
+  .older-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  /* Mobile: everything stacks vertically */
   @media (max-width: 900px) {
-    .post-grid {
+    .latest-row {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .older-grid {
       grid-template-columns: 1fr;
     }
   }
