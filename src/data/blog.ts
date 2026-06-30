@@ -15,6 +15,155 @@ export type BlogPost = {
 
 export const fallbackPosts: BlogPost[] = [
   {
+    slug: "choose-crypto-wallet",
+    title: "How to Choose a Crypto Wallet Safely",
+    description: "Owning cryptocurrency means being your own bank, and the wallet you choose is the most important tool in that arrangement. Unlike a traditional wallet that hold",
+    pubDate: "2026-06-11",
+    author: "Team",
+    category: "General",
+    tags: [],
+    featured: false,
+    heroImage: "/assets/archive-grid.svg",
+    inlineImages: [],
+    referenceUrl: "https://guarda.com/",
+    articleText: `
+      <h1 id="a-practical-guide-to-choosing-the-right-crypto-wallet">A Practical Guide to Choosing the Right Crypto Wallet</h1>
+<p>Owning cryptocurrency means being your own bank, and the wallet you choose is the most important tool in that arrangement. Unlike a traditional wallet that holds physical cash, a crypto wallet does not actually store coins. Instead, it stores the private keys that prove ownership and allow you to move funds on a blockchain. Pick the wrong storage method and you could lose assets to hackers, scams, or simple forgetfulness. Choose well, and you gain both security and everyday usability.</p>
+<p><img alt="Diagram of hot, cold, custodial, and non-custodial crypto wallets" src="/images/crypto-wallet-types.jpg" /></p>
+<h2 id="what-a-crypto-wallet-actually-does">What a Crypto Wallet Actually Does</h2>
+<p>A blockchain is a public ledger that records who controls which funds. To spend crypto, you must sign a transaction with a private key that matches your public address. Your wallet generates and guards that key pair. When you “send Bitcoin,” the wallet creates a signed message that the network verifies and records.</p>
+<p>Most modern wallets also produce a recovery seed phrase, usually 12 or 24 words. This phrase is a human-readable backup of your private keys. Anyone with the seed can control your funds, so protecting it matters more than protecting the device itself. Lose the seed without another backup, and even the wallet company cannot recover your coins.</p>
+<p>Wallets are usually grouped along two axes:</p>
+<ul>
+<li><strong>Connectivity:</strong> hot wallets stay online; cold wallets stay offline.</li>
+<li><strong>Control:</strong> custodial wallets manage keys for you; non-custodial wallets leave keys in your hands.</li>
+</ul>
+<h2 id="hot-wallets-vs-cold-wallets">Hot Wallets vs. Cold Wallets</h2>
+<p>Hot wallets run on internet-connected devices such as phones, laptops, or browsers. They are fast, often free, and ideal for frequent transactions. The trade-off is a larger attack surface: malware, phishing, and insecure networks can all threaten a hot wallet.</p>
+<p>Cold wallets, also called hardware wallets, keep private keys on a dedicated device that never connects to the internet. You confirm transactions physically on the device, so even a compromised computer cannot drain your funds.</p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Hot Wallet</th>
+<th>Cold Wallet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Best for</td>
+<td>Daily spending, trading, small balances</td>
+<td>Long-term savings, large holdings</td>
+</tr>
+<tr>
+<td>Internet required</td>
+<td>Yes</td>
+<td>Only during setup or updates</td>
+</tr>
+<tr>
+<td>Typical cost</td>
+<td>Free</td>
+<td>$50–$200 one-time</td>
+</tr>
+<tr>
+<td>Security model</td>
+<td>Device and app security</td>
+<td>Air-gapped hardware security</td>
+</tr>
+<tr>
+<td>Recovery method</td>
+<td>Seed phrase backup</td>
+<td>Seed phrase backup</td>
+</tr>
+<tr>
+<td>Speed of access</td>
+<td>Instant</td>
+<td>Requires physical device nearby</td>
+</tr>
+</tbody>
+</table>
+<h3 id="when-hot-wallets-make-sense">When Hot Wallets Make Sense</h3>
+<p>Use a hot wallet for amounts you would be comfortable carrying in a physical wallet: coffee purchases, small peer-to-peer transfers, or testing decentralized apps. Look for wallets with open-source code, strong encryption, PIN or biometric locks, and a clear backup process.</p>
+<h3 id="when-cold-storage-is-worth-it">When Cold Storage Is Worth It</h3>
+<p>If your holdings exceed what you could afford to lose in a single incident, move most of them to a hardware wallet. Store the seed phrase offline, ideally etched on metal or written on paper, and keep it in a secure location. Never enter the seed into a website or app unless you are performing a legitimate recovery.</p>
+<h2 id="custodial-vs-non-custodial-wallets">Custodial vs. Non-Custodial Wallets</h2>
+<p>A custodial wallet is managed by a company, often an exchange or brokerage. You log in with a username and password, and the provider holds your private keys. This feels familiar, and it can make password resets and customer support possible. However, it also means the provider can freeze accounts, limit withdrawals, or suffer a breach that affects your funds.</p>
+<p>A non-custodial wallet puts you in full control. No one can block your transactions, but no one can reset your password either. The phrase “not your keys, not your coins” captures the idea: if you do not hold the seed phrase, you technically do not own the underlying crypto.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Custodial Wallet</th>
+<th>Non-Custodial Wallet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Key control</td>
+<td>Provider holds keys</td>
+<td>You hold keys</td>
+</tr>
+<tr>
+<td>Account recovery</td>
+<td>Email, password, support tickets</td>
+<td>Seed phrase only</td>
+</tr>
+<tr>
+<td>Permission to transact</td>
+<td>Provider can restrict</td>
+<td>Permissionless</td>
+</tr>
+<tr>
+<td>Typical use case</td>
+<td>Beginners, active traders</td>
+<td>Long-term holders, privacy-conscious users</td>
+</tr>
+<tr>
+<td>Insurance</td>
+<td>May have limited coverage; not FDIC insured</td>
+<td>No third-party coverage</td>
+</tr>
+</tbody>
+</table>
+<p>Government consumer agencies have repeatedly warned that virtual currency accounts are not insured the way bank deposits are. The <a href="https://www.consumerfinance.gov/consumer-tools/virtual-currencies/" rel="nofollow">Consumer Financial Protection Bureau</a> and the <a href="https://www.investor.gov/introduction-investing/investing-basics/investment-products/virtual-currency-investments" rel="nofollow">Securities and Exchange Commission’s Investor.gov</a> both advise consumers to understand exactly how and where private keys are stored before sending funds.</p>
+<h2 id="key-security-features-to-look-for">Key Security Features to Look For</h2>
+<p>No wallet is perfect, but certain features separate serious products from risky ones:</p>
+<ul>
+<li><strong>Open-source code</strong> that security researchers can audit.</li>
+<li><strong>Local key storage</strong> so private keys never leave your device unencrypted.</li>
+<li><strong>PIN, password, or biometric protection</strong> with automatic lockout.</li>
+<li><strong>A clear 12- or 24-word seed phrase backup</strong> generated on your device.</li>
+<li><strong>Optional passphrase or multi-signature support</strong> for advanced protection.</li>
+<li><strong>A transparent track record</strong> of responding to vulnerabilities.</li>
+</ul>
+<h3 id="multi-signature-and-passphrase-options">Multi-Signature and Passphrase Options</h3>
+<p>Multi-signature wallets require two or more keys to approve a transaction, which is useful for families, businesses, or anyone who wants redundancy. A passphrase, sometimes called a 25th word, creates a hidden wallet behind the standard seed phrase. Both add complexity, so use them only after you understand the recovery process.</p>
+<h2 id="common-mistakes-to-avoid">Common Mistakes to Avoid</h2>
+<p>Even a great wallet becomes dangerous with poor habits. Avoid these common errors:</p>
+<ul>
+<li>Saving seed phrase photos or screenshots in cloud storage.</li>
+<li>Buying hardware wallets from unofficial resellers or marketplaces.</li>
+<li>Keeping large amounts on an exchange app long term.</li>
+<li>Skipping software updates that patch known flaws.</li>
+<li>Trusting “support” messages sent through social media or search ads.</li>
+<li>Reusing passwords across exchange and wallet accounts.</li>
+</ul>
+<p><img alt="Hardware wallet with recovery seed phrase card" src="/images/hardware-wallet-seed-phrase.jpg" /></p>
+<h2 id="finding-the-right-balance-for-your-needs">Finding the Right Balance for Your Needs</h2>
+<p>Most experienced users rely on more than one wallet. A sensible setup might include a hardware wallet for the bulk of your savings, a mobile non-custodial wallet for daily spending, and a small custodial balance for converting fiat or making quick trades.</p>
+<p>If you prefer managing assets directly from a browser, a reputable <a href="https://guarda.com/">online bitcoin wallet</a> can work well for moderate amounts you need to access regularly. Just treat it like cash in your pocket: convenient for daily use, but not where you store your life savings.</p>
+<h2 id="putting-it-into-practice">Putting It Into Practice</h2>
+<ol>
+<li><strong>Assess your activity.</strong> Separate funds you plan to spend or trade soon from long-term holdings.</li>
+<li><strong>Choose cold storage for savings.</strong> Move the majority of your assets to a hardware wallet with a verified seed backup.</li>
+<li><strong>Select a hot wallet with care.</strong> Prioritize open-source projects, strong reviews, and active development.</li>
+<li><strong>Test recovery.</strong> Write down your seed phrase, confirm every word, and restore the wallet once before loading significant funds.</li>
+<li><strong>Review regularly.</strong> Check for updates, revoke unused app permissions, and verify your backup is still readable.</li>
+</ol>
+<p>A wallet is more than an app. It is the gatekeeper between you and your digital assets. By matching the right wallet type to the right purpose and protecting your seed phrase above all else, you can enjoy the benefits of crypto without giving up control.</p>
+    `
+  },
+  {
     slug: "crypto-wallet-guide",
     title: "Crypto Wallet Guide: Compare Types, Security & Trade-offs",
     description: "If you own cryptocurrency, the wallet you choose is arguably as important as the assets themselves. Unlike a physical wallet that holds cash, a crypto wallet st",
