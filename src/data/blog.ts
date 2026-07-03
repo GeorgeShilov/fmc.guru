@@ -23,7 +23,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "https://v3b.fal.media/files/b/0aa0bf62/ssEWjEIEWU1txa61jvNgW.jpg",
+    heroImage: "/assets/archive-grid.svg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -129,7 +129,10 @@ export const fallbackPosts: BlogPost[] = [
 <h2 id="common-mistakes-to-avoid">Common Mistakes to Avoid</h2>
 <p>Many beginners store all their crypto on an exchange without understanding the custodial risk. Others screenshot their seed phrase or keep it in cloud email. Some install wallets from unverified links. Avoid these habits.</p>
 <h2 id="final-thoughts">Final Thoughts</h2>
-<p>Choosing the right storage setup is about balancing convenience with control. Take time to understand the trade-offs, secure your recovery phrase, and only keep funds online that you need for immediate use. For larger holdings, cold storage is usually{
+<p>Choosing the right storage setup is about balancing convenience with control. Take time to understand the trade-offs, secure your recovery phrase, and only keep funds online that you need for immediate use. For larger holdings, cold storage is usually worth the extra step.</p>
+    `
+  },
+  {
     slug: "crypto-wallet-guide-35",
     title: "Crypto Wallet Guide: Types, Security & Tips",
     description: "If you own cryptocurrency—or are thinking about buying your first fraction of Bitcoin—you will need a crypto wallet. Unlike a physical wallet that holds cash, a",
@@ -138,8 +141,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "https://v3b.fal.media/files/b/0aa0bf63/V_Jnj20DQuMa6FyG_pXcW.jpg",
-    inlineImages:ets/archive-grid.svg",
+    heroImage: "/assets/archive-grid.svg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -258,7 +260,10 @@ export const fallbackPosts: BlogPost[] = [
 <p>Start with the minimum setup you need. You can always add a hardware wallet later as your holdings grow.</p>
 <h2 id="putting-it-all-together">Putting It All Together</h2>
 <p>Choosing a crypto wallet is less about finding the single “best” option and more about matching the right tool to your habits. If you trade often, a hot wallet or online bitcoin wallet will keep your funds accessible. If you treat crypto like a long-term savings account, a cold or hardware wallet is usually the safer path.</p>
-<p>Whatever you choose, treat your private keys and seed phrase as carefully as you would treat a bank password. The technology behind wallets is powerful, but the u{
+<p>Whatever you choose, treat your private keys and seed phrase as carefully as you would treat a bank password. The technology behind wallets is powerful, but the user is still the most important part of the security equation.</p>
+    `
+  },
+  {
     slug: "choose-crypto-wallet",
     title: "Find the Right Crypto Wallet for Your Holdings",
     description: "A crypto wallet is the first tool most people need after buying digital currency, yet it is also one of the most misunderstood parts of the ecosystem. Unlike a ",
@@ -267,8 +272,6 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "https://v3b.fal.media/files/b/0aa0bf63/rgYQR8DVzhF_v2JGsnDNg.jpg",
-    inlineImages:   featured: false,
     heroImage: "/assets/archive-grid.svg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
@@ -376,17 +379,17 @@ export const fallbackPosts: BlogPost[] = [
 <li><strong>Skipping backups</strong> means a lost phone or broken device could lock you out permanently.</li>
 </ul>
 <h2 id="final-thoughts">Final Thoughts</h2>
-<p>The best crypto wallet is the one that matches your goals and your willingness to take responsibility for your keys. Long-term holders often benefit from a hardware wallet. Active traders may prefer a combination of an exchange account for liquidity and a non-custodial hot wallet for everyday use. Whichever path you choose, protect your recovery phras{
+<p>The best crypto wallet is the one that matches your goals and your willingness to take responsibility for your keys. Long-term holders often benefit from a hardware wallet. Active traders may prefer a combination of an exchange account for liquidity and a non-custodial hot wallet for everyday use. Whichever path you choose, protect your recovery phrase, verify every download, and start with small amounts until you are comfortable with the workflow.</p>
+    `
+  },
+  
+  {
     slug: "choose-crypto-wallet",
     title: "How to Choose a Crypto Wallet Safely",
     description: "Owning cryptocurrency means being your own bank, and the wallet you choose is the most important tool in that arrangement. Unlike a traditional wallet that hold",
     pubDate: "2026-06-11",
     author: "Team",
     category: "General",
-    tags: [],
-    featured: false,
-    heroImage: "https://v3b.fal.media/files/b/0aa0bf63/OdMAgUFBffatlRP8-sRhA.jpg",
-    inlineImages:    category: "General",
     tags: [],
     featured: false,
     heroImage: "/assets/archive-grid.svg",
@@ -526,17 +529,14 @@ export const fallbackPosts: BlogPost[] = [
 <li><strong>Test recovery.</strong> Write down your seed phrase, confirm every word, and restore the wallet once before loading significant funds.</li>
 <li><strong>Review regularly.</strong> Check for updates, revoke unused app permissions, and verify your backup is still readable.</li>
 </ol>
-<p>A wallet is more than an app. It is the gatekeeper between you and your digital assets. By matching the right wa{
+<p>A wallet is more than an app. It is the gatekeeper between you and your digital assets. By matching the right wallet type to the right purpose and protecting your seed phrase above all else, you can enjoy the benefits of crypto without giving up control.</p>
+    `
+  },
+  {
     slug: "crypto-wallet-guide",
     title: "Crypto Wallet Guide: Compare Types, Security & Trade-offs",
     description: "If you own cryptocurrency, the wallet you choose is arguably as important as the assets themselves. Unlike a physical wallet that holds cash, a crypto wallet st",
     pubDate: "2026-06-11",
-    author: "Team",
-    category: "General",
-    tags: [],
-    featured: false,
-    heroImage: "https://v3b.fal.media/files/b/0aa0bf63/zgoj4aj3C8cr1ah7DC6_F.jpg",
-    inlineImages:Date: "2026-06-11",
     author: "Team",
     category: "General",
     tags: [],
@@ -657,17 +657,13 @@ export const fallbackPosts: BlogPost[] = [
 <li>Moving large amounts to a wallet before testing the full restore process with a small balance.</li>
 </ul>
 <h2 id="final-thoughts">Final thoughts</h2>
-<p>There is no single best crypto wallet for everyone. The right choice is a balance between convenience, security, and your own willingness to manage private keys. Many people find that a layered approach works best: a small amount in a hot wallet for everyday access and the {
+<p>There is no single best crypto wallet for everyone. The right choice is a balance between convenience, security, and your own willingness to manage private keys. Many people find that a layered approach works best: a small amount in a hot wallet for everyday access and the majority in a cold, non-custodial wallet for safekeeping. Take time to practice recovery steps, start with modest amounts, and only scale up once you are comfortable with your setup.</p>
+    `
+  },
+  {
     slug: "choose-crypto-wallet",
     title: "Choosing the Right Crypto Wallet: A Practical Guide",
     description: "A cryptocurrency wallet is the first tool most people need after buying Bitcoin, Ethereum, or any digital asset. It is also one of the most misunderstood parts ",
-    pubDate: "2026-06-11",
-    author: "Team",
-    category: "General",
-    tags: [],
-    featured: false,
-    heroImage: "https://v3b.fal.media/files/b/0aa0bf63/uMW2rDQZEZma6yyN3ICnb.jpg",
-    inlineImages: the most misunderstood parts ",
     pubDate: "2026-06-11",
     author: "Team",
     category: "General",
@@ -819,7 +815,11 @@ export const fallbackPosts: BlogPost[] = [
 <p>The <a href="https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-and-scams" rel="nofollow">FTC guidance on cryptocurrency scams</a> is a useful resource for recognizing and reporting fraud. If something feels off, stop and research before installing any wallet or sharing information.</p>
 <h2 id="making-the-right-choice-for-your-goals">Making the Right Choice for Your Goals</h2>
 <p>Start by asking what you actually need. Are you trading every week, collecting NFTs, earning yield in DeFi, or simply holding Bitcoin for the long term? Active traders may prefer an exchange-linked custodial wallet for speed. Long-term holders usually benefit from a hardware wallet. Many people end up using a combination: a small hot wallet for spending and a cold wallet for savings.</p>
-<p>The best wallet is the one you understand and can use safely. Take time to set it up correctly, test it with a small amount{
+<p>The best wallet is the one you understand and can use safely. Take time to set it up correctly, test it with a small amount first, and keep your recovery phrase secure. A thoughtful choice today can protect your assets for years to come.</p>
+<p><img alt="crypto wallet security checklist on a desk" src="/images/wallet-security-checklist.jpg" /></p>
+    `
+  },
+  {
     slug: "how-to-spot-early-gems-on-fantom",
     title: "How to spot early gems on Fantom",
     description:
@@ -829,18 +829,15 @@ export const fallbackPosts: BlogPost[] = [
     category: "Research",
     tags: ["Fantom", "Gems", "Research"],
     featured: true,
-    heroImage: "https://v3b.fal.media/files/b/0aa0bf64/07zjtt7oomHEFEWemFrBp.jpg",
-    inlineImages:ity, and on-chain signals.",
-    pubDate: "2026-05-16",
-    author: "FantomMarketCap Team",
-    category: "Research",
-    tags: ["Fantom", "Gems", "Research"],
-    featured: true,
     heroImage: "/assets/archive-grid.svg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Most token hunters miss the window because they wait for social proof instead of reading on-chain data early. The real edge comes from three filters: nativity (is the asset native or bridged), liquidity depth (can you enter and exit without moving the price), and holder distribution (is supply concentrated or spread).</p>
-      <p>FantomMarketCap was built to surface these signals before the crowd arrives. Rank by market cap, sort by most liquid, filter by category — AMM, vault, yield, stablecoin — and you get a map of where the ecosy{
+      <p>FantomMarketCap was built to surface these signals before the crowd arrives. Rank by market cap, sort by most liquid, filter by category — AMM, vault, yield, stablecoin — and you get a map of where the ecosystem is heading, not just where it has been.</p>
+      <p>The most important discipline is patience with position sizing. Track supply changes weekly, volume trends daily, and resist the urge to ape before the contract has been verified and the liquidity locked.</p>
+    `
+  },
+  {
     slug: "reading-dex-liquidity-like-a-trader",
     title: "Reading DEX liquidity like a trader",
     description:
@@ -849,27 +846,18 @@ export const fallbackPosts: BlogPost[] = [
     author: "FantomMarketCap Team",
     category: "Trading",
     tags: ["DEX", "Liquidity", "Fantom"],
-    heroImage: "https://v3b.fal.media/files/b/0aa0bf64/6i1XoxBNpk3g3_gVVVMLh.jpg",
-    inlineImages:lue locked, volume, and slippage across Fantom DEXes to find the best execution routes.",
-    pubDate: "2026-05-15",
-    author: "FantomMarketCap Team",
-    category: "Trading",
-    tags: ["DEX", "Liquidity", "Fantom"],
     heroImage: "/assets/archive-grid.svg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Liquidity is not a single number. It is a shape. A pool can look deep from the outside but be lopsided once you drill into token ratios and recent flow. On Fantom, where DEXes range from Sushi and Beethoven X to native protocols like PaintSwap and Waka, execution quality varies block by block.</p>
-      <p>Start by comparing total value locked to twenty-four-hour volume. High TVL with low volume often means sticky deposits and wide spreads. Low TVL with high volume can mean volatile but efficient pricing. The best trades happe{
+      <p>Start by comparing total value locked to twenty-four-hour volume. High TVL with low volume often means sticky deposits and wide spreads. Low TVL with high volume can mean volatile but efficient pricing. The best trades happen where the ratio is balanced.</p>
+      <p>Review routes across multiple DEXes before swapping. Aggregators help, but direct comparison of slippage on identical pairs often reveals hidden liquidity on smaller venues. The best traders treat DEX selection as a first-class decision, not an afterthought.</p>
+    `
+  },
+  {
     slug: "understanding-yield-farms-and-vaults",
     title: "Understanding yield farms and vaults",
     description:
-      "What APY actually means, how vault strategies compound, and the risks to watch before depositing into a Fantom farm.",
-    pubDate: "2026-05-14",
-    author: "FantomMarketCap Team",
-    category: "DeFi",
-    tags: ["Yield", "Farming", "Vaults"],
-    heroImage: "https://v3b.fal.media/files/b/0aa0bf64/UwFgUZgYjmcEYAFdbZ-F5.jpg",
-    inlineImages:ption:
       "What APY actually means, how vault strategies compound, and the risks to watch before depositing into a Fantom farm.",
     pubDate: "2026-05-14",
     author: "FantomMarketCap Team",
@@ -893,7 +881,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "Technology",
     tags: ["Fantom", "Consensus", "Lachesis", "aBFT", "Scalability"],
     featured: true,
-    heroImage: "https://v3b.fal.media/files/b/0aa0bfa5/nH9uGiQi_bHmuBmoQuhAW.jpg",
+    heroImage: "/assets/archive-grid.svg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Blockchain technology has long been constrained by the fundamental tension between decentralization, security, and scalability — a challenge commonly known as the blockchain trilemma. Traditional networks like Bitcoin and Ethereum have historically prioritized security and decentralization at the expense of throughput, resulting in slow confirmation times, high transaction fees, and unpredictable finality. Fantom's Lachesis consensus mechanism represents a paradigm shift in how distributed ledgers can achieve consensus, offering a solution that does not force projects to compromise on any of these three critical dimensions. By leveraging an innovative asynchronous Byzantine Fault Tolerant (aBFT) design, Lachesis enables the Fantom Opera network to process thousands of transactions per second while maintaining mathematical guarantees of safety and liveness, all without relying on a small set of centralized validators or expensive Proof-of-Work mining infrastructure.</p>
