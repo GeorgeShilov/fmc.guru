@@ -893,7 +893,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "Technology",
     tags: ["Fantom", "Consensus", "Lachesis", "aBFT", "Scalability"],
     featured: true,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfa5/nH9uGiQi_bHmuBmoQuhAW.jpg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Blockchain technology has long been constrained by the fundamental tension between decentralization, security, and scalability — a challenge commonly known as the blockchain trilemma. Traditional networks like Bitcoin and Ethereum have historically prioritized security and decentralization at the expense of throughput, resulting in slow confirmation times, high transaction fees, and unpredictable finality. Fantom's Lachesis consensus mechanism represents a paradigm shift in how distributed ledgers can achieve consensus, offering a solution that does not force projects to compromise on any of these three critical dimensions. By leveraging an innovative asynchronous Byzantine Fault Tolerant (aBFT) design, Lachesis enables the Fantom Opera network to process thousands of transactions per second while maintaining mathematical guarantees of safety and liveness, all without relying on a small set of centralized validators or expensive Proof-of-Work mining infrastructure.</p>
