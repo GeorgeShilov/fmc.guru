@@ -392,7 +392,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bff8/jyeh9OTBFqnOkKt_qpZ90.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
