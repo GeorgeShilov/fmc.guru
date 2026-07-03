@@ -23,7 +23,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd3/IkA2G4lO8seMifbnDFQgA.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -272,7 +272,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd3/T4gDhhzp0Xlt5HGoL1s7r.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -541,7 +541,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd3/fDvGJqBYgonswx5iXATBB.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -846,7 +846,7 @@ export const fallbackPosts: BlogPost[] = [
     author: "FantomMarketCap Team",
     category: "Trading",
     tags: ["DEX", "Liquidity", "Fantom"],
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd4/WVzPJY4--NEcEb3SMf831.jpg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Liquidity is not a single number. It is a shape. A pool can look deep from the outside but be lopsided once you drill into token ratios and recent flow. On Fantom, where DEXes range from Sushi and Beethoven X to native protocols like PaintSwap and Waka, execution quality varies block by block.</p>
@@ -863,7 +863,7 @@ export const fallbackPosts: BlogPost[] = [
     author: "FantomMarketCap Team",
     category: "DeFi",
     tags: ["Yield", "Farming", "Vaults"],
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfd4/5Howsj6h064r5jJUgJYj8.jpg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>APY is a projection, not a promise. The number you see on a farm page assumes the emission schedule, token price, and pool size stay constant — none of which ever do. The real question is not how high the APY is, but how long the incentive structure can sustain it.</p>
@@ -881,7 +881,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "Technology",
     tags: ["Fantom", "Consensus", "Lachesis", "aBFT", "Scalability"],
     featured: true,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfde/0kPqOAqhHuznHU6aLKz_w.jpg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Blockchain technology has long been constrained by the fundamental tension between decentralization, security, and scalability — a challenge commonly known as the blockchain trilemma. Traditional networks like Bitcoin and Ethereum have historically prioritized security and decentralization at the expense of throughput, resulting in slow confirmation times, high transaction fees, and unpredictable finality. Fantom's Lachesis consensus mechanism represents a paradigm shift in how distributed ledgers can achieve consensus, offering a solution that does not force projects to compromise on any of these three critical dimensions. By leveraging an innovative asynchronous Byzantine Fault Tolerant (aBFT) design, Lachesis enables the Fantom Opera network to process thousands of transactions per second while maintaining mathematical guarantees of safety and liveness, all without relying on a small set of centralized validators or expensive Proof-of-Work mining infrastructure.</p>
