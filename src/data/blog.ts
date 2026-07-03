@@ -141,7 +141,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bff1/DbKx8Cy8RvbdvN62mSUbn.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -669,7 +669,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bff1/XKNw2Dd5jppTGH7tHcZNi.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
