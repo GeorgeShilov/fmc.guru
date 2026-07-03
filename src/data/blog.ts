@@ -23,7 +23,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "https://v3b.fal.media/files/b/0aa0bfd3/IkA2G4lO8seMifbnDFQgA.jpg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfe4/8SF8s1U6idNP2FmvqpiL0.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -272,7 +272,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "https://v3b.fal.media/files/b/0aa0bfd3/T4gDhhzp0Xlt5HGoL1s7r.jpg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfe4/rVwmyYG72j_hEPRmQ7-yN.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -829,7 +829,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "Research",
     tags: ["Fantom", "Gems", "Research"],
     featured: true,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bfe4/fc3VJdvbTHmTNG3fqV_E3.jpg",
     inlineImages: ["/assets/identity-shield.svg", "/assets/wallet-ledger.svg"],
     articleText: `
       <p>Most token hunters miss the window because they wait for social proof instead of reading on-chain data early. The real edge comes from three filters: nativity (is the asset native or bridged), liquidity depth (can you enter and exit without moving the price), and holder distribution (is supply concentrated or spread).</p>
