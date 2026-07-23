@@ -1,9 +1,11 @@
 ---
 import PostCard from "@/components/PostCard.astro";
 import Layout from "@/layouts/Layout.astro";
-import { getBlogPosts } from "@/lib/squidex";
+import { getCollection } from "astro:content";
 
-const posts = await getBlogPosts();
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
 const sorted = [...posts].sort(
   (a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
 );
